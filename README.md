@@ -1,4 +1,4 @@
-# flutter_soccer_quiz
+# soccer_quiz
 
 A new Flutter project.
 

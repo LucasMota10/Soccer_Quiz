@@ -1,35 +1,34 @@
 import 'package:flutter/material.dart';
+import 'home_page.dart';
+import 'login_page.dart';
+import 'register_page.dart';
+import 'forgot_password_email_page.dart';
 
 void main() {
-  runApp(const MeuApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(const MyApp());
 }
 
-class MeuApp extends StatelessWidget {
-  const MeuApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Soccer Quiz',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        useMaterial3: true, // Design moderno
+        colorScheme:
+            ColorScheme.fromSeed(seedColor: const Color(0xFF1FA34A)),
+        useMaterial3: true,
       ),
       home: const HomePage(),
-    );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text("Início")),
-      body: Center(
-        child: const Text("Olá, Mundo!"),
-      ),
+      routes: {
+        '/home': (_) => const HomePage(),
+        '/login': (_) => const LoginPage(),
+        '/register': (_) => const RegisterPage(),
+        '/forgot-password': (_) => const ForgotPasswordEmailPage(),
+      },
     );
   }
 }
