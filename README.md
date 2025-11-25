@@ -1,3 +1,5 @@
+<img width="277" height="195" alt="image" src="https://github.com/user-attachments/assets/e3d150aa-632b-49b7-941f-a1fb72cd3e4d" />
+
 # Soccer Quiz 
 
 Este é um projeto Flutter desenvolvido aplicando os princípios S.O.L.I.D.
