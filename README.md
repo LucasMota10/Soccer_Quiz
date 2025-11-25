@@ -22,6 +22,3 @@ flutter pub get
 - Abra a pasta do projeto
 - Selecione o emulador em Flutter: Select Device
 - Execute o comando: flutter run no terminal
-
-
-Nota: No Windows, utilize gradlew clean sem o ./ inicial.
