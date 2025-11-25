@@ -1,7 +1,7 @@
 # Soccer Quiz 
 
-Este é um projeto Flutter desenvolvido aplicando os princípios S.O.L.I.D. e padrões de arquitetura (Controller/Repository).
-O projeto conta com sistema de Login, Cadastro, Recuperação de Senha, Convite de Usuários e Banco de Dados Local (SQLite).
+Este é um projeto Flutter desenvolvido aplicando os princípios S.O.L.I.D.
+O projeto atualmente conta com sistema de Login, Cadastro, Recuperação de Senha, Convite de Usuários e Banco de Dados Local (SQLite).
 
  ## Pré-requisitos
 
