@@ -1,16 +1,27 @@
-# soccer_quiz
+# Soccer Quiz 
 
-A new Flutter project.
+Este é um projeto Flutter desenvolvido aplicando os princípios S.O.L.I.D. e padrões de arquitetura (Controller/Repository).
+O projeto conta com sistema de Login, Cadastro, Recuperação de Senha, Convite de Usuários e Banco de Dados Local (SQLite).
 
-## Getting Started
+ ## Pré-requisitos
 
-This project is a starting point for a Flutter application.
+- Flutter SDK
+- Android Studio
+- vs code
 
-A few resources to get you started if this is your first Flutter project:
+## Como executar
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 1. Instalar dependências
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Abra o terminal na pasta raiz do projeto e execute o comando abaixo para baixar as bibliotecas (sqflite, path, etc):
+
+flutter pub get
+
+### 2. Rodar o aplicativo
+
+- Abra a pasta do projeto
+- Selecione o emulador em Flutter: Select Device
+- Execute o comando: flutter run no terminal
+
+
+Nota: No Windows, utilize gradlew clean sem o ./ inicial.
